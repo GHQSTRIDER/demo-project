@@ -8,17 +8,16 @@ This project is a sandbox for learning Claude Code. It exists so you have a real
 
 ## Workflow Reminders (for Grant)
 
-1. **Always start in Plan Mode** for new features (Shift+Tab until "plan mode on" shows at the bottom)
-2. **Run `/init`** at the start of any new project to keep this file fresh
-3. **Watch the status bar** — when context % crosses 60%, run `/clear`
-4. **Run `/security-review`** before pushing anything to GitHub
-5. **Use `/plugin`** to install skills (start with front-end design)
+These are notes for Grant, not instructions for Claude.
+
+1. **Run `/init`** at the start of any new project to keep this file fresh
+2. **Watch the status bar** — when context % crosses 60%, run `/clear`
+3. **Run `/security-review`** before pushing anything to GitHub
+4. **Use `/plugin`** to install skills (start with front-end design)
 
 ## Environment
 
-- **GitHub username:** GHQSTRIDER
-- **`VERCEL_TOKEN`** is stored as a Windows User environment variable — not in any repo file. The Vercel CLI picks it up automatically. Verify with `$env:VERCEL_TOKEN` in PowerShell.
-- **`.env.local`** is gitignored and used for any local overrides (NEVER commit).
+- **`.env.local`** holds local overrides and is gitignored, so it stays out of commits.
 - **Linked GitHub repo:** https://github.com/GHQSTRIDER/demo-project
 - **Vercel deployment URL:** *(set after first deploy)*
 

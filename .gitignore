@@ -48,3 +48,6 @@ venv/
 .claude/
 
 .vercel
+
+# Local backups
+*.bak-*
